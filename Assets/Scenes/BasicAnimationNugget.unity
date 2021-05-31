@@ -150,15 +150,9 @@ Transform:
   m_LocalPosition: {x: -2.2390692, y: -1.3238975, z: -0.6746478}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-<<<<<<< Updated upstream
-  - {fileID: 1288379505}
-  - {fileID: 109893263}
-  - {fileID: 2104742900}
-=======
   - {fileID: 109893263}
   - {fileID: 2104742900}
   - {fileID: 1288379505}
->>>>>>> Stashed changes
   m_Father: {fileID: 206856676}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -172,6 +166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 109893263}
   - component: {fileID: 109893264}
+  - component: {fileID: 109893265}
   m_Layer: 0
   m_Name: LidPivot
   m_TagString: Untagged
@@ -193,11 +188,7 @@ Transform:
   - {fileID: 135823045}
   - {fileID: 1428443090}
   m_Father: {fileID: 65328990}
-<<<<<<< Updated upstream
-  m_RootOrder: 1
-=======
   m_RootOrder: 0
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &109893264
 MeshFilter:
@@ -207,6 +198,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 109893262}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &109893265
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109893262}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1838737dcba10fc4aa6044d78892bd0f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &135823044
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,11 +743,7 @@ Transform:
   m_Children:
   - {fileID: 415985555}
   m_Father: {fileID: 65328990}
-<<<<<<< Updated upstream
-  m_RootOrder: 0
-=======
   m_RootOrder: 2
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1428443089
 GameObject:
@@ -994,11 +1000,7 @@ Transform:
   m_LocalScale: {x: 0.99, y: 0.1, z: 1.99}
   m_Children: []
   m_Father: {fileID: 65328990}
-<<<<<<< Updated upstream
-  m_RootOrder: 2
-=======
   m_RootOrder: 1
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2104742901
 BoxCollider:
