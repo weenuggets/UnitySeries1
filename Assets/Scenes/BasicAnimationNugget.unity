@@ -150,9 +150,15 @@ Transform:
   m_LocalPosition: {x: -2.2390692, y: -1.3238975, z: -0.6746478}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< Updated upstream
   - {fileID: 1288379505}
   - {fileID: 109893263}
   - {fileID: 2104742900}
+=======
+  - {fileID: 109893263}
+  - {fileID: 2104742900}
+  - {fileID: 1288379505}
+>>>>>>> Stashed changes
   m_Father: {fileID: 206856676}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -187,7 +193,11 @@ Transform:
   - {fileID: 135823045}
   - {fileID: 1428443090}
   m_Father: {fileID: 65328990}
+<<<<<<< Updated upstream
   m_RootOrder: 1
+=======
+  m_RootOrder: 0
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &109893264
 MeshFilter:
@@ -723,7 +733,11 @@ Transform:
   m_Children:
   - {fileID: 415985555}
   m_Father: {fileID: 65328990}
+<<<<<<< Updated upstream
   m_RootOrder: 0
+=======
+  m_RootOrder: 2
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1428443089
 GameObject:
@@ -980,7 +994,11 @@ Transform:
   m_LocalScale: {x: 0.99, y: 0.1, z: 1.99}
   m_Children: []
   m_Father: {fileID: 65328990}
+<<<<<<< Updated upstream
   m_RootOrder: 2
+=======
+  m_RootOrder: 1
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2104742901
 BoxCollider:
